@@ -195,7 +195,7 @@ export const supabaseAdapter: DataAdapter = {
   },
 
   async addParticipant(input: AddParticipantInput): Promise<Participant> {
-    const supabaseUrl = import.meta.env.VITE_SUPABASE_URL
+    const supabaseUrl = (import.meta.env.VITE_SUPABASE_URL || '').replace(/[^\x20-\x7E]/g, '').trim()
     const { data: sessionData } = await supabase.auth.getSession()
     const token = sessionData.session?.access_token
     if (!token) throw new Error('Not authenticated.')
@@ -215,7 +215,7 @@ export const supabaseAdapter: DataAdapter = {
   },
 
   async importParticipants(rows): Promise<ImportResult> {
-    const supabaseUrl = import.meta.env.VITE_SUPABASE_URL
+    const supabaseUrl = (import.meta.env.VITE_SUPABASE_URL || '').replace(/[^\x20-\x7E]/g, '').trim()
     const { data: sessionData } = await supabase.auth.getSession()
     const token = sessionData.session?.access_token
     if (!token) throw new Error('Not authenticated.')

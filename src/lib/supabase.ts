@@ -1,7 +1,11 @@
 import { createClient } from '@supabase/supabase-js'
 
-const supabaseUrl = import.meta.env.VITE_SUPABASE_URL
-const supabaseAnonKey = import.meta.env.VITE_SUPABASE_ANON_KEY
+const rawUrl = import.meta.env.VITE_SUPABASE_URL
+const rawKey = import.meta.env.VITE_SUPABASE_ANON_KEY
+
+// Strip any non-ASCII characters or invisible Unicode copy-paste artifacts
+const supabaseUrl = (rawUrl || '').replace(/[^\x20-\x7E]/g, '').trim()
+const supabaseAnonKey = (rawKey || '').replace(/[^\x20-\x7E]/g, '').trim()
 
 // Validate required env vars at startup (production only)
 if (import.meta.env.PROD) {
