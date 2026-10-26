@@ -12,10 +12,25 @@ const CORS_HEADERS = {
 }
 
 function normaliseIndianPhone(raw: string): string {
-  const digits = raw.replace(/\D/g, '')
-  if (digits.length === 10) return `+91${digits}`
-  if (digits.length === 12 && digits.startsWith('91')) return `+${digits}`
-  if (raw.startsWith('+') && digits.length >= 10) return `+${digits}`
+  const parts = String(raw).split(/[,/]/)
+  const primary = parts[0].trim()
+  const digits = primary.replace(/\D/g, '')
+
+  if (digits.length === 10 || digits.length === 9) {
+    return `+91${digits}`
+  }
+  if (digits.length === 12 && digits.startsWith('91')) {
+    return `+${digits}`
+  }
+  if (digits.length === 11 && digits.startsWith('974')) {
+    return `+${digits}`
+  }
+  if (primary.startsWith('+') && digits.length >= 9) {
+    return `+${digits}`
+  }
+  if (digits.length >= 10) {
+    return `+${digits}`
+  }
   throw new Error(`Invalid phone number: "${raw}"`)
 }
 

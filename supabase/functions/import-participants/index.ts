@@ -10,10 +10,25 @@ const CORS_HEADERS = {
 }
 
 function normaliseIndianPhone(raw: string): string {
-  const digits = raw.replace(/\D/g, '')
-  if (digits.length === 10) return `+91${digits}`
-  if (digits.length === 12 && digits.startsWith('91')) return `+${digits}`
-  if (raw.startsWith('+') && digits.length >= 10) return `+${digits}`
+  const parts = String(raw).split(/[,/]/)
+  const primary = parts[0].trim()
+  const digits = primary.replace(/\D/g, '')
+
+  if (digits.length === 10 || digits.length === 9) {
+    return `+91${digits}`
+  }
+  if (digits.length === 12 && digits.startsWith('91')) {
+    return `+${digits}`
+  }
+  if (digits.length === 11 && digits.startsWith('974')) {
+    return `+${digits}`
+  }
+  if (primary.startsWith('+') && digits.length >= 9) {
+    return `+${digits}`
+  }
+  if (digits.length >= 10) {
+    return `+${digits}`
+  }
   throw new Error(`Invalid phone: "${raw}"`)
 }
 
@@ -116,19 +131,37 @@ serve(async (req) => {
         const participantDisplayId: string = seqData
 
         // Create auth user (email derived from phone, no SMS needed)
+        let authUserId: string
+        const userEmail = phoneToEmail(normalised)
         const { data: authData, error: authErr } = await adminClient.auth.admin.createUser({
-          email: phoneToEmail(normalised),
+          email: userEmail,
           password: eventPassword,
           email_confirm: true,
           user_metadata: { name: name.trim(), phone: normalised },
         })
-        if (authErr) throw new Error(authErr.message)
 
-        const authUserId = authData.user.id
+        if (authErr) {
+          if (authErr.message.toLowerCase().includes('already') || authErr.message.toLowerCase().includes('exists')) {
+            const { data: usersData } = await adminClient.auth.admin.listUsers()
+            const existingUser = usersData?.users?.find((u: { email?: string }) => u.email === userEmail)
+            if (existingUser) {
+              authUserId = existingUser.id
+            } else {
+              throw new Error(authErr.message)
+            }
+          } else {
+            throw new Error(authErr.message)
+          }
+        } else {
+          authUserId = authData.user.id
+          // Create profile if not already present
+          await adminClient.from('profiles').upsert(
+            { id: authUserId, role: 'attendee' },
+            { onConflict: 'id', ignoreDuplicates: true }
+          )
+        }
+
         const qrToken = generateToken(32)
-
-        // Create profile
-        await adminClient.from('profiles').insert({ id: authUserId, role: 'attendee' })
 
         // Create participant
         const { error: pErr } = await adminClient.from('participants').insert({
@@ -140,7 +173,9 @@ serve(async (req) => {
           gift_status: 'pending',
         })
         if (pErr) {
-          await adminClient.auth.admin.deleteUser(authUserId)
+          if (!authErr) {
+            await adminClient.auth.admin.deleteUser(authUserId)
+          }
           throw new Error(pErr.message)
         }
 

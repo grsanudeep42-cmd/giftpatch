@@ -16,9 +16,11 @@ export function phoneToEmail(normalisedPhone: string): string {
  * Accepts 10-digit numbers, numbers prefixed with 91, or full +91 prefix.
  */
 export function normaliseIndianPhone(raw: string): string {
-  const digits = raw.replace(/\D/g, '')
+  const parts = String(raw).split(/[,/]/)
+  const primary = parts[0].trim()
+  const digits = primary.replace(/\D/g, '')
 
-  if (digits.length === 10) {
+  if (digits.length === 10 || digits.length === 9) {
     return `${INDIA_COUNTRY_CODE}${digits}`
   }
 
@@ -30,8 +32,16 @@ export function normaliseIndianPhone(raw: string): string {
     return `+${digits.slice(1)}`
   }
 
+  if (digits.length === 11 && digits.startsWith('974')) {
+    return `+${digits}`
+  }
+
   // Already E.164-ish
-  if (raw.startsWith('+') && digits.length >= 10) {
+  if (primary.startsWith('+') && digits.length >= 9) {
+    return `+${digits}`
+  }
+
+  if (digits.length >= 10) {
     return `+${digits}`
   }
 
