@@ -14,6 +14,7 @@ import { AdminDashboardPage } from './pages/admin/AdminDashboardPage'
 import { AdminParticipantsPage } from './pages/admin/AdminParticipantsPage'
 import { AdminAddParticipantPage } from './pages/admin/AdminAddParticipantPage'
 import { AdminImportPage } from './pages/admin/AdminImportPage'
+import { AdminStaffPage } from './pages/admin/AdminStaffPage'
 import { AdminHistoryPage } from './pages/admin/AdminHistoryPage'
 
 export default function App() {
@@ -76,6 +77,14 @@ export default function App() {
               element={
                 <ProtectedRoute requiredRole="admin" loginPath={ROUTES.LOGIN}>
                   <AdminImportPage />
+                </ProtectedRoute>
+              }
+            />
+            <Route
+              path={ROUTES.ADMIN_STAFF}
+              element={
+                <ProtectedRoute requiredRole="admin" loginPath={ROUTES.LOGIN}>
+                  <AdminStaffPage />
                 </ProtectedRoute>
               }
             />

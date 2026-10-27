@@ -54,28 +54,10 @@
     "raw_phone": "9393332595"
   },
   {
-    "sno": 10,
-    "name": "Boyina Hymavathi (K. Bommali)",
-    "phone": "+919985169166",
-    "raw_phone": "9985169166"
-  },
-  {
-    "sno": 11,
-    "name": "Sana Kasturi (Tekkali)",
-    "phone": "+918142494324",
-    "raw_phone": "8142494324"
-  },
-  {
-    "sno": 12,
-    "name": "Katyaini (Bangalore)",
-    "phone": "+919861568101",
-    "raw_phone": "9861568101"
-  },
-  {
     "sno": 13,
     "name": "Vagdevi (Hyd)",
-    "phone": "+91770218833",
-    "raw_phone": "770218833"
+    "phone": "+917702188333",
+    "raw_phone": "7702188333"
   },
   {
     "sno": 14,
@@ -88,18 +70,6 @@
     "name": "Rajani (Sunil) Berhampur",
     "phone": "+919861585504",
     "raw_phone": "9861585504"
-  },
-  {
-    "sno": 16,
-    "name": "Sudia Neelakanteswara Rao (Bangalore)",
-    "phone": "+919394705229",
-    "raw_phone": "9394705229"
-  },
-  {
-    "sno": 17,
-    "name": "Ippili Silpa (USA)",
-    "phone": "+13129122852",
-    "raw_phone": "+1 3129122852"
   },
   {
     "sno": 18,
@@ -156,18 +126,6 @@
     "raw_phone": "9741787000"
   },
   {
-    "sno": 27,
-    "name": "Gudla Govind (Pavani) USA",
-    "phone": "+16147876380",
-    "raw_phone": "+1 6147876380"
-  },
-  {
-    "sno": 28,
-    "name": "Kotni Vissu (Kavita) Bombay",
-    "phone": "+919987550509",
-    "raw_phone": "9987550509"
-  },
-  {
     "sno": 29,
     "name": "Vaddi Lakshmana Rao (Uma) London",
     "phone": "+447738624808",
@@ -175,914 +133,608 @@
   },
   {
     "sno": 30,
+    "name": "Sudia Rama Rao (VSKP)",
+    "phone": "+919502699166",
+    "raw_phone": "9502699166"
+  },
+  {
+    "sno": 32,
+    "name": "Vaddi Ravi",
+    "phone": "+916300704694",
+    "raw_phone": "6300704694"
+  },
+  {
+    "sno": 33,
+    "name": "Vaddi Satish",
+    "phone": "+919441017469",
+    "raw_phone": "9441017469"
+  },
+  {
+    "sno": 34,
     "name": "Konchada Vani",
     "phone": "+917566883351",
     "raw_phone": "7566883351"
   },
   {
-    "sno": 31,
-    "name": "A. Deepchand (USA)",
-    "phone": "+17203829326",
-    "raw_phone": "+1 7203829326, 9248257135"
-  },
-  {
-    "sno": 32,
+    "sno": 36,
     "name": "A. Rama Rao (SKL)",
     "phone": "+919705126888",
     "raw_phone": "9705126888"
   },
   {
-    "sno": 33,
+    "sno": 37,
     "name": "A. Lakshmana Rao (VSKP)",
     "phone": "+919704082723",
     "raw_phone": "9704082723"
   },
   {
-    "sno": 34,
+    "sno": 38,
     "name": "B. Rama Seshayya (SKL)",
     "phone": "+916300417172",
     "raw_phone": "6300417172"
   },
   {
-    "sno": 35,
+    "sno": 39,
     "name": "K. Naveen Kumar (SKL)",
     "phone": "+919666193636",
     "raw_phone": "9666193636"
   },
   {
-    "sno": 36,
+    "sno": 40,
     "name": "B. Nagendra Prakash (Jyothi) Hyd",
     "phone": "+919177822212",
     "raw_phone": "9177822212"
   },
   {
-    "sno": 37,
-    "name": "B. Satyendra Prakash (Bangalore)",
-    "phone": "+91962072884",
-    "raw_phone": "962072884"
-  },
-  {
-    "sno": 38,
+    "sno": 42,
     "name": "Konchada Ramanayya (Usha)",
     "phone": "+919494694800",
     "raw_phone": "9494694800"
   },
   {
-    "sno": 39,
-    "name": "Sakalabaktula Ramesh (Katara)",
-    "phone": "+97455148384",
-    "raw_phone": "97455148384"
-  },
-  {
-    "sno": 40,
-    "name": "Botu Krishna Rao (C/o Sruti)",
-    "phone": "+919949296997",
-    "raw_phone": "9949296997"
-  },
-  {
-    "sno": 41,
-    "name": "Talasu Ramadevi (C/o Sravan)",
-    "phone": "+917893355539",
-    "raw_phone": "7893355539"
-  },
-  {
-    "sno": 42,
+    "sno": 46,
     "name": "Pydisetti Ram Kumar (K. Bommali)",
     "phone": "+919490222799",
     "raw_phone": "9490222799"
   },
   {
-    "sno": 43,
+    "sno": 47,
     "name": "Korada Lakshmana Murty (SKL, C/o Ashika)",
     "phone": "+919440496993",
     "raw_phone": "9440496993"
   },
   {
-    "sno": 44,
+    "sno": 48,
     "name": "Satya Jewellers [V. Krishna Rao (C/o Ashish)]",
     "phone": "+918328389998",
     "raw_phone": "8328389998"
   },
   {
-    "sno": 45,
-    "name": "Patnana Bhaskar Rao (SKL)",
-    "phone": "+919848004805",
-    "raw_phone": "9848004805"
-  },
-  {
-    "sno": 46,
+    "sno": 50,
     "name": "Talasu Sekhar (Kasibugga)",
-    "phone": "+919440564190",
-    "raw_phone": "9440564190, 7396276926"
+    "phone": "+917396276926",
+    "raw_phone": "7396276926"
   },
   {
-    "sno": 47,
-    "name": "Korada Siva Sankar (Hyd)",
-    "phone": "+919505533199",
-    "raw_phone": "9505533199"
-  },
-  {
-    "sno": 48,
+    "sno": 52,
     "name": "Sri Silla Lakshmana Rao (Hyd)",
     "phone": "+919032690837",
     "raw_phone": "9032690837"
   },
   {
-    "sno": 49,
+    "sno": 53,
     "name": "Silla Balayya (SKL)",
     "phone": "+917382565827",
     "raw_phone": "7382565827"
   },
   {
-    "sno": 50,
+    "sno": 54,
     "name": "Naramsetti Rajani (C/o SLR)",
     "phone": "+919912913689",
     "raw_phone": "9912913689"
   },
   {
-    "sno": 51,
-    "name": "Silla Venkata Ramana (SKL)",
-    "phone": "+919440738323",
-    "raw_phone": "9440738323"
-  },
-  {
-    "sno": 52,
+    "sno": 56,
     "name": "Baratam Narayana Prasad (SKL)",
-    "phone": "+919100769360",
-    "raw_phone": "9100769360"
+    "phone": "+919100796360",
+    "raw_phone": "9100796360"
   },
   {
-    "sno": 53,
+    "sno": 57,
     "name": "Kintali Ratnala Raju (VSKP)",
     "phone": "+917981240926",
     "raw_phone": "7981240926"
   },
   {
-    "sno": 54,
+    "sno": 59,
     "name": "Doki Syam (Laxmi Pinni)",
     "phone": "+917893451052",
     "raw_phone": "7893451052"
   },
   {
-    "sno": 55,
-    "name": "Doki Vinod (Laxmi Pinni)",
-    "phone": "+918885399903",
-    "raw_phone": "8885399903"
-  },
-  {
-    "sno": 56,
+    "sno": 61,
     "name": "Potnuru Suneel (SKL)",
     "phone": "+919963063150",
     "raw_phone": "9963063150"
   },
   {
-    "sno": 57,
-    "name": "Talasu Hari Prasad (Sudha) Palasa",
-    "phone": "+919440168385",
-    "raw_phone": "9440168385"
+    "sno": 62,
+    "name": "Baratam (Lavanya Father)",
+    "phone": "+919441623814",
+    "raw_phone": "9441623814"
   },
   {
-    "sno": 58,
+    "sno": 64,
     "name": "Potnuru Venkata Ramana (MVP)",
     "phone": "+919440583836",
     "raw_phone": "9440583836"
   },
   {
-    "sno": 59,
+    "sno": 68,
     "name": "Sri Varanasi Kanta Rao (Madhurawada)",
     "phone": "+919848992266",
     "raw_phone": "9848992266"
   },
   {
-    "sno": 60,
+    "sno": 69,
     "name": "Varanasi Satyanarayana Murty (Doctor) VSKP",
     "phone": "+919949176315",
     "raw_phone": "9949176315"
   },
   {
-    "sno": 61,
+    "sno": 70,
     "name": "Patnala Venkateswara Rao (SKL)",
     "phone": "+919440892839",
     "raw_phone": "9440892839"
   },
   {
-    "sno": 62,
-    "name": "Patnala Dhanalakshmi (SKL)",
-    "phone": "+919493764701",
-    "raw_phone": "9493764701"
-  },
-  {
-    "sno": 63,
+    "sno": 72,
     "name": "Patnala Koti (SKL)",
     "phone": "+919440526285",
     "raw_phone": "9440526285"
   },
   {
-    "sno": 64,
+    "sno": 73,
     "name": "Patnala Malleswara Rao (SKL)",
     "phone": "+919490596384",
     "raw_phone": "9490596384"
   },
   {
-    "sno": 65,
+    "sno": 74,
     "name": "Potnuru Suresh (Kistappapeta)",
     "phone": "+919000762135",
     "raw_phone": "9000762135"
   },
   {
-    "sno": 66,
+    "sno": 75,
     "name": "Jami Baburao (Muralinagar)",
     "phone": "+919290041054",
     "raw_phone": "9290041054"
   },
   {
-    "sno": 67,
+    "sno": 76,
     "name": "Ladi Chittibabu (Voppangi)",
     "phone": "+919703480632",
     "raw_phone": "9703480632"
   },
   {
-    "sno": 68,
-    "name": "P. Kurmanadham (Kristappeta)",
-    "phone": "+919441569506",
-    "raw_phone": "9441569506"
+    "sno": 77,
+    "name": "K.V.V. Prasad (Madhurawada)",
+    "phone": "+919959017232",
+    "raw_phone": "9959017232"
   },
   {
-    "sno": 69,
+    "sno": 78,
+    "name": "Bandi Appala Naidu (SKL)",
+    "phone": "+917032762902",
+    "raw_phone": "7032762902"
+  },
+  {
+    "sno": 81,
+    "name": "Y. Uma (SKL)",
+    "phone": "+918985162789",
+    "raw_phone": "8985162789"
+  },
+  {
+    "sno": 82,
+    "name": "Ladi Santa Rao (VSKP)",
+    "phone": "+918074050736",
+    "raw_phone": "8074050736"
+  },
+  {
+    "sno": 83,
+    "name": "Flat 4C - Madhavi K",
+    "phone": "+919010999601",
+    "raw_phone": "9010999601"
+  },
+  {
+    "sno": 84,
+    "name": "Flat 6C - Sneha",
+    "phone": "+919985384001",
+    "raw_phone": "9985384001"
+  },
+  {
+    "sno": 86,
+    "name": "Flat 6D - Prashanthi",
+    "phone": "+91738625066",
+    "raw_phone": "738625066"
+  },
+  {
+    "sno": 87,
+    "name": "Flat 9B - Sujatha",
+    "phone": "+919866422377",
+    "raw_phone": "9866422377"
+  },
+  {
+    "sno": 88,
+    "name": "Flat 2C - KSR Murthy",
+    "phone": "+919848190440",
+    "raw_phone": "9848190440"
+  },
+  {
+    "sno": 89,
+    "name": "Flat 9C - Jaiveer",
+    "phone": "+918978524411",
+    "raw_phone": "8978524411"
+  },
+  {
+    "sno": 90,
+    "name": "Naramsetti Venkateswara Rao (Hyd)",
+    "phone": "+919849025383",
+    "raw_phone": "9849025383"
+  },
+  {
+    "sno": 91,
+    "name": "Gembali Eswara Rao (Hyd)",
+    "phone": "+919848996226",
+    "raw_phone": "9848996226"
+  },
+  {
+    "sno": 99,
+    "name": "Ram Prasad (PM Pallam)",
+    "phone": "+919490397898",
+    "raw_phone": "9490397898"
+  },
+  {
+    "sno": 101,
+    "name": "Sri S. Joga Rao, Palasa",
+    "phone": "+919642878305",
+    "raw_phone": "9642878305"
+  },
+  {
+    "sno": 103,
+    "name": "Lalitha (Pavani Atha)",
+    "phone": "+919966119921",
+    "raw_phone": "9966119921"
+  },
+  {
+    "sno": 104,
+    "name": "Chinni Amma (Pavani Atha)",
+    "phone": "+91814201327",
+    "raw_phone": "814201327"
+  },
+  {
+    "sno": 105,
     "name": "Narayana Setti Sri Rama Murty (VSKP)",
     "phone": "+919492350552",
     "raw_phone": "9492350552"
   },
   {
-    "sno": 70,
+    "sno": 109,
     "name": "Silla Swamy Babu (Vijayanagaram)",
     "phone": "+919494333994",
     "raw_phone": "9494333994"
   },
   {
-    "sno": 71,
+    "sno": 110,
     "name": "Silla Eswara Rao (SKL)",
     "phone": "+916301891660",
     "raw_phone": "6301891660"
   },
   {
-    "sno": 72,
-    "name": "Santosh Lawyer (SKL)",
-    "phone": "+918019140169",
-    "raw_phone": "8019140169"
-  },
-  {
-    "sno": 73,
+    "sno": 112,
     "name": "Amarana Atchuta Rao (S. Kaviti)",
     "phone": "+919989894468",
     "raw_phone": "9989894468"
   },
   {
-    "sno": 74,
-    "name": "Ladi Ramesh (C/o Karuna's Uncle) SKL",
-    "phone": "+919441155787",
-    "raw_phone": "9441155787"
-  },
-  {
-    "sno": 75,
-    "name": "Ladi Srinu (S/o Vara Laxmi) Srikurmam",
-    "phone": "+919110382487",
-    "raw_phone": "9110382487"
-  },
-  {
-    "sno": 76,
+    "sno": 115,
     "name": "Potnuru Varadha Rajulu (Polaki)",
     "phone": "+919492266816",
     "raw_phone": "9492266816"
   },
   {
-    "sno": 77,
+    "sno": 116,
     "name": "Gudla Rama Rao (Lolugu)",
     "phone": "+919963199899",
     "raw_phone": "9963199899"
   },
   {
-    "sno": 78,
+    "sno": 117,
     "name": "Sri Gudla Haranadha Rao, Kancharam",
     "phone": "+919704777210",
     "raw_phone": "9704777210"
   },
   {
-    "sno": 79,
+    "sno": 118,
     "name": "Gudla Bhulaxmi (SKL)",
     "phone": "+919493855359",
     "raw_phone": "9493855359"
   },
   {
-    "sno": 80,
-    "name": "Jami Narasimha Murty (Tekkali) Pattha",
-    "phone": "+919849157209",
-    "raw_phone": "9849157209"
-  },
-  {
-    "sno": 81,
-    "name": "Patnana Laxmi (SKL)",
-    "phone": "+918019352482",
-    "raw_phone": "8019352482"
-  },
-  {
-    "sno": 82,
-    "name": "Boyina Sarada (W/o late Mohan Rao) SKL",
-    "phone": "+918341222078",
-    "raw_phone": "8341222078"
-  },
-  {
-    "sno": 83,
-    "name": "Andhavarapu Naresh (SKL)",
-    "phone": "+917337041426",
-    "raw_phone": "7337041426"
-  },
-  {
-    "sno": 84,
-    "name": "Maddi Kameswara Rao (Palasa)",
-    "phone": "+918249139983",
-    "raw_phone": "8249139983"
-  },
-  {
-    "sno": 85,
+    "sno": 124,
     "name": "Vysyaraju Trinath Rao (Sujatha, Vizianagaram)",
     "phone": "+919440265736",
     "raw_phone": "9440265736"
   },
   {
-    "sno": 86,
+    "sno": 125,
     "name": "Vysyaraju Srinivas Rao (Ammulu, SKL)",
     "phone": "+919298953846",
     "raw_phone": "9298953846"
   },
   {
-    "sno": 87,
-    "name": "Korada Suresh (Ravanamma) SKL (Kintali)",
-    "phone": "+916302933168",
-    "raw_phone": "6302933168"
-  },
-  {
-    "sno": 88,
+    "sno": 127,
     "name": "Boyina Naresh (Drakshayini, Jaipur) (Uma Sister)",
     "phone": "+917681021645",
     "raw_phone": "7681021645"
   },
   {
-    "sno": 89,
+    "sno": 128,
     "name": "Shanmukha Rao (Delhi) (Uma Sister)",
     "phone": "+918984335788",
     "raw_phone": "8984335788"
   },
   {
-    "sno": 90,
-    "name": "Potnuru Sudharshan Rao (Narasannapeta)",
-    "phone": "+919703955422",
-    "raw_phone": "9703955422"
-  },
-  {
-    "sno": 91,
-    "name": "Shanmukha Rao (Kristanpeta) (Saraswathi Pinni)",
-    "phone": "+919866083398",
-    "raw_phone": "9866083398"
-  },
-  {
-    "sno": 92,
+    "sno": 131,
     "name": "Doki Nageswara Rao (Palasa)",
     "phone": "+919440106446",
     "raw_phone": "9440106446"
   },
   {
-    "sno": 93,
+    "sno": 132,
     "name": "Tangudu Rama Krishna (Cheepurupalli)",
     "phone": "+919440106986",
     "raw_phone": "9440106986"
   },
   {
-    "sno": 94,
+    "sno": 133,
     "name": "Pydisetti Govinda Raju (VSKP) C/o Sowmya",
     "phone": "+917670892890",
     "raw_phone": "7670892890"
   },
   {
-    "sno": 95,
-    "name": "Naramsetti Ramanamma (Hiramandalam) (Mavi Vadina Peddamma Daughter)",
-    "phone": "+919642048023",
-    "raw_phone": "9642048023"
-  },
-  {
-    "sno": 96,
+    "sno": 135,
     "name": "Sappa Shekhar (Kasibugga)",
-    "phone": "+919494721761",
-    "raw_phone": "9494721761"
+    "phone": "+919490900189",
+    "raw_phone": "9490900189"
   },
   {
-    "sno": 97,
-    "name": "Silla Suresh (VSKP, Madhavi)",
-    "phone": "+918121545918",
-    "raw_phone": "8121545918"
-  },
-  {
-    "sno": 98,
+    "sno": 137,
     "name": "Silla Sampath Rao (Gujaratipet)",
     "phone": "+919849920393",
     "raw_phone": "9849920393"
   },
   {
-    "sno": 99,
+    "sno": 138,
     "name": "Silla Kutumba Rao (Gujaratipet)",
     "phone": "+919290897354",
     "raw_phone": "9290897354"
   },
   {
-    "sno": 100,
-    "name": "Kalivarapu Rupa (N. Pet)",
-    "phone": "+919490584223",
-    "raw_phone": "9490584223"
-  },
-  {
-    "sno": 101,
-    "name": "Simhadri Ramanamma (Guntur)",
-    "phone": "+919701332422",
-    "raw_phone": "9701332422"
-  },
-  {
-    "sno": 102,
-    "name": "Ladi Himantha Rao (Kothapeta) Surulamma",
-    "phone": "+919550493249",
-    "raw_phone": "9550493249"
-  },
-  {
-    "sno": 103,
-    "name": "Vuna Laxmi",
-    "phone": "+919959229588",
-    "raw_phone": "9959229588"
-  },
-  {
-    "sno": 104,
-    "name": "Gurunadha Rao (SKL)",
-    "phone": "+919949310205",
-    "raw_phone": "9949310205"
-  },
-  {
-    "sno": 105,
-    "name": "Yesmavathi (Garudakandi)",
-    "phone": "+919618190289",
-    "raw_phone": "9618190289"
-  },
-  {
-    "sno": 106,
-    "name": "N.V. Rama Krishna (Hari Totalludu)",
-    "phone": "+919440561931",
-    "raw_phone": "9440561931"
-  },
-  {
-    "sno": 107,
-    "name": "Vooma Santosh (SKL)",
-    "phone": "+918247210989",
-    "raw_phone": "8247210989"
-  },
-  {
-    "sno": 108,
-    "name": "Gayatri (D/o Balayya) Bangalore",
-    "phone": "+918333860309",
-    "raw_phone": "8333860309"
-  },
-  {
-    "sno": 109,
-    "name": "Manimala (D/o SLR)",
-    "phone": "+919490532383",
-    "raw_phone": "9490532383"
-  },
-  {
-    "sno": 110,
-    "name": "Tankala Kameswara Rao (VSKP)",
-    "phone": "+919866555841",
-    "raw_phone": "9866555841"
-  },
-  {
-    "sno": 111,
-    "name": "Baratam Deelip (SKL)",
-    "phone": "+918886883272",
-    "raw_phone": "8886883272"
-  },
-  {
-    "sno": 112,
-    "name": "Voona Malleswara Rao (SKL)",
-    "phone": "+919290087624",
-    "raw_phone": "9290087624"
-  },
-  {
-    "sno": 113,
-    "name": "Patnana Vijay (Pune)",
-    "phone": "+919890680676",
-    "raw_phone": "9890680676"
-  },
-  {
-    "sno": 114,
-    "name": "Potnuru Ravi Kumar (Amudalavalasa)",
-    "phone": "+919177574210",
-    "raw_phone": "9177574210"
-  },
-  {
-    "sno": 115,
+    "sno": 158,
     "name": "Patnana Srikanth (VSP)",
     "phone": "+919246626069",
     "raw_phone": "9246626069"
   },
   {
-    "sno": 116,
-    "name": "Sappa Sekhar Rao (KSB)",
-    "phone": "+919490900189",
-    "raw_phone": "9490900189"
-  },
-  {
-    "sno": 117,
+    "sno": 159,
     "name": "Patnana Badari (PVP)",
-    "phone": "+919985364386",
-    "raw_phone": "9985364386"
+    "phone": "+919985364384",
+    "raw_phone": "9985364384"
   },
   {
-    "sno": 118,
-    "name": "Patnana Murali (PVP)",
-    "phone": "+919966643440",
-    "raw_phone": "9966643440"
-  },
-  {
-    "sno": 119,
+    "sno": 161,
     "name": "Voonna Ranjit",
     "phone": "+919440113234",
     "raw_phone": "9440113234"
   },
   {
-    "sno": 120,
-    "name": "Baratam Lakshmi (W/o Chandra Sekhar)",
-    "phone": "+918500864681",
-    "raw_phone": "8500864681"
-  },
-  {
-    "sno": 121,
-    "name": "Ippili Satyanarayana (Amadalavalasa) (C/o Sushma)",
-    "phone": "+918143330222",
-    "raw_phone": "8143330222"
-  },
-  {
-    "sno": 122,
+    "sno": 164,
     "name": "Potnuru Govinda (SKL) C/o Kanta Rao",
     "phone": "+919848789918",
     "raw_phone": "9848789918"
   },
   {
-    "sno": 123,
-    "name": "Varanasi Sita Rama (Chhattisgarh) Swaroop",
-    "phone": "+918074698560",
-    "raw_phone": "8074698560"
-  },
-  {
-    "sno": 124,
-    "name": "Killamsetti Ramachandra Rao (Amalapadu Rupa)",
-    "phone": "+916305186963",
-    "raw_phone": "6305186963"
-  },
-  {
-    "sno": 125,
-    "name": "Usha (D/o SLR) Hyd",
-    "phone": "+918668536072",
-    "raw_phone": "8668536072"
-  },
-  {
-    "sno": 126,
-    "name": "Boyina Ravi (N. Peta) Charishma Ammamma",
-    "phone": "+919441539749",
-    "raw_phone": "9441539749"
-  },
-  {
-    "sno": 127,
-    "name": "Korada Somesh (S/o Gopal Rao) VSKP",
-    "phone": "+919848642843",
-    "raw_phone": "9848642843"
-  },
-  {
-    "sno": 128,
-    "name": "Baratam Ramesh (Laxmi) SKL",
-    "phone": "+919440458639",
-    "raw_phone": "9440458639"
-  },
-  {
-    "sno": 129,
-    "name": "Varanasi Gopal Rao (Neela Rani)",
-    "phone": "+919912701191",
-    "raw_phone": "9912701191, 8074590176"
-  },
-  {
-    "sno": 130,
-    "name": "Voona Nagaraju (SKL) Bhavani",
-    "phone": "+919848098496",
-    "raw_phone": "9848098496"
-  },
-  {
-    "sno": 131,
-    "name": "Botu Gouri Sankar (Doctor) Swarna",
-    "phone": "+917013131997",
-    "raw_phone": "7013131997"
-  },
-  {
-    "sno": 132,
-    "name": "Vysyaraju Ram Mohan (Hyd)",
-    "phone": "+919848468680",
-    "raw_phone": "9848468680"
-  },
-  {
-    "sno": 133,
+    "sno": 175,
     "name": "Jami Santosh (Hyd)",
     "phone": "+917989968712",
     "raw_phone": "7989968712"
   },
   {
-    "sno": 134,
-    "name": "Voona Rajanikanth (Kanchili)",
-    "phone": "+919441276555",
-    "raw_phone": "9441276555"
-  },
-  {
-    "sno": 135,
-    "name": "Baratam Narendra (SKL)",
-    "phone": "+919652487557",
-    "raw_phone": "9652487557"
-  },
-  {
-    "sno": 136,
+    "sno": 179,
     "name": "Pydisetti Srinivasa Rao",
     "phone": "+919866048984",
     "raw_phone": "9866048984"
   },
   {
-    "sno": 137,
-    "name": "Boyina Satyanarayana (Kotabommali)",
-    "phone": "+918965167889",
-    "raw_phone": "8965167889"
-  },
-  {
-    "sno": 138,
-    "name": "Boyina Naveen (Kotabommali)",
-    "phone": "+919490655388",
-    "raw_phone": "9490655388"
-  },
-  {
-    "sno": 139,
-    "name": "Baratam Mohan (SKL) C/o Bava",
-    "phone": "+919440788956",
-    "raw_phone": "9440788956"
-  },
-  {
-    "sno": 140,
+    "sno": 183,
     "name": "Baratam Srinu (SKL) Charani Mamayya",
     "phone": "+919848156868",
     "raw_phone": "9848156868"
   },
   {
-    "sno": 141,
-    "name": "Madhavi (D/o Balayya)",
-    "phone": "+919494203280",
-    "raw_phone": "9494203280"
-  },
-  {
-    "sno": 142,
-    "name": "Konchada Rajesh (Ravali) Hyd",
-    "phone": "+919000252224",
-    "raw_phone": "9000252224"
-  },
-  {
-    "sno": 143,
-    "name": "Srikar (Srivani)",
-    "phone": "+918500900515",
-    "raw_phone": "8500900515"
-  },
-  {
-    "sno": 144,
+    "sno": 187,
     "name": "Ladi Siva Krishna (Poojitha)",
     "phone": "+919963568510",
     "raw_phone": "9963568510"
   },
   {
-    "sno": 145,
-    "name": "Anjali",
-    "phone": "+918847807265",
-    "raw_phone": "8847807265"
-  },
-  {
-    "sno": 146,
-    "name": "Nallana Rajeswara Rao (VSKP) Hotels",
-    "phone": "+919440417818",
-    "raw_phone": "9440417818"
-  },
-  {
-    "sno": 147,
+    "sno": 190,
     "name": "Pisini Prasad (VSKP) Car Shed",
     "phone": "+919705336294",
     "raw_phone": "9705336294"
   },
   {
-    "sno": 148,
+    "sno": 191,
     "name": "Boyina Ravindra (VSKP)",
     "phone": "+917709642411",
     "raw_phone": "7709642411"
   },
   {
-    "sno": 149,
+    "sno": 192,
+    "name": "Dr. A. Krishnaveni",
+    "phone": "+919440547244",
+    "raw_phone": "9440547244"
+  },
+  {
+    "sno": 193,
+    "name": "Dr. Haritha",
+    "phone": "+917780733074",
+    "raw_phone": "7780733074"
+  },
+  {
+    "sno": 194,
+    "name": "Dr. Rajitha",
+    "phone": "+919494452112",
+    "raw_phone": "9494452112"
+  },
+  {
+    "sno": 195,
+    "name": "Dr. Kalyani",
+    "phone": "+918500665286",
+    "raw_phone": "8500665286"
+  },
+  {
+    "sno": 197,
     "name": "Baratam Satyanarayana (SKLM)",
     "phone": "+919989371089",
     "raw_phone": "9989371089"
   },
   {
-    "sno": 150,
+    "sno": 198,
+    "name": "Mukku Obul Reddy",
+    "phone": "+918863999999",
+    "raw_phone": "8863999999"
+  },
+  {
+    "sno": 199,
     "name": "Vijaya Akka (Kalivaram Dodda)",
     "phone": "+919989237115",
     "raw_phone": "9989237115"
   },
   {
-    "sno": 151,
+    "sno": 200,
     "name": "Indira (Kalivaram Dodda)",
     "phone": "+916302898409",
     "raw_phone": "6302898409"
   },
   {
-    "sno": 152,
+    "sno": 204,
     "name": "Andhavarapu Murali (SKL)",
     "phone": "+917670876810",
     "raw_phone": "7670876810"
   },
   {
-    "sno": 153,
+    "sno": 205,
     "name": "Baratam Punna (SKL)",
     "phone": "+919000726025",
     "raw_phone": "9000726025"
   },
   {
-    "sno": 154,
-    "name": "B. Satyanarayana & others (Walker friends)",
-    "phone": "+919989693248",
-    "raw_phone": "9989693248"
-  },
-  {
-    "sno": 155,
-    "name": "B. Amarnadha (Hari KSB) Hyd (Not known)",
-    "phone": "+919849744297",
-    "raw_phone": "9849744297"
-  },
-  {
-    "sno": 156,
-    "name": "Penta Indira (D/o Tata Rao) SKL",
-    "phone": "+919666671405",
-    "raw_phone": "9666671405"
-  },
-  {
-    "sno": 157,
-    "name": "Baratam Nagaraju (S/o Tata Rao) SKL",
-    "phone": "+919553443100",
-    "raw_phone": "9553443100"
-  },
-  {
-    "sno": 158,
-    "name": "Andhavarapu Ramesh",
-    "phone": "+917382609666",
-    "raw_phone": "7382609666"
-  },
-  {
-    "sno": 159,
-    "name": "Andhavarapu Rama Rao",
-    "phone": "+918801800607",
-    "raw_phone": "8801800607"
-  },
-  {
-    "sno": 160,
-    "name": "Narmada",
-    "phone": "+919440195052",
-    "raw_phone": "9440195052"
-  },
-  {
-    "sno": 161,
-    "name": "Kumari Aunty (Soumya)",
-    "phone": "+919959722722",
-    "raw_phone": "9959722722"
-  },
-  {
-    "sno": 162,
-    "name": "Lakshmi Aunty (Soumya)",
-    "phone": "+918317571884",
-    "raw_phone": "8317571884"
-  },
-  {
-    "sno": 163,
-    "name": "Manikanta (Soumya)",
-    "phone": "+917702277558",
-    "raw_phone": "7702277558"
-  },
-  {
-    "sno": 164,
+    "sno": 219,
     "name": "Gowri Aunty (Amma Friend)",
     "phone": "+917799425111",
     "raw_phone": "7799425111"
   },
   {
-    "sno": 165,
-    "name": "Gita (D/o Balayya) SKL",
-    "phone": "+919490540705",
-    "raw_phone": "9490540705"
-  },
-  {
-    "sno": 166,
-    "name": "Andhavarapu Prasad (S/o Lingamnaidu) SKL",
-    "phone": "+917989628250",
-    "raw_phone": "7989628250"
-  },
-  {
-    "sno": 167,
-    "name": "Talasu Venkatesam (Palasa)",
-    "phone": "+918555055700",
-    "raw_phone": "8555055700"
-  },
-  {
-    "sno": 168,
-    "name": "Silla Chitti (Fazulbegpeta)",
-    "phone": "+919441355868",
-    "raw_phone": "9441355868"
-  },
-  {
-    "sno": 169,
-    "name": "Subramanyam (Parent) (PM Palem)",
-    "phone": "+916301820408",
-    "raw_phone": "6301820408"
-  },
-  {
-    "sno": 170,
-    "name": "Jami Laxmana Murty (PM Palem)",
-    "phone": "+919177810309",
-    "raw_phone": "9177810309"
-  },
-  {
-    "sno": 171,
+    "sno": 227,
     "name": "KVG Gupta",
     "phone": "+919000158889",
     "raw_phone": "9000158889"
   },
   {
-    "sno": 172,
-    "name": "Andhavarapu Naveen Kumar (Hyd)",
-    "phone": "+919581695572",
-    "raw_phone": "9581695572"
-  },
-  {
-    "sno": 173,
-    "name": "Sri Patnana Surya Rao (Calingapatnam)",
-    "phone": "+919908445615",
-    "raw_phone": "9908445615"
-  },
-  {
-    "sno": 174,
+    "sno": 230,
     "name": "Malla Rishikesh (Jeypore)",
     "phone": "+919437031106",
     "raw_phone": "9437031106"
   },
   {
-    "sno": 175,
-    "name": "Gumma Nagesh",
-    "phone": "+919440195735",
-    "raw_phone": "9440195735"
+    "sno": 238,
+    "name": "Flat 6E - Neelayya",
+    "phone": "+918897170009",
+    "raw_phone": "8897170009"
   },
   {
-    "sno": 176,
-    "name": "Minister Dharmana",
-    "phone": "+919959865756",
-    "raw_phone": "9959865756"
+    "sno": 240,
+    "name": "Flat 4A - Indira Suresh",
+    "phone": "+917893259990",
+    "raw_phone": "7893259990"
   },
   {
-    "sno": 177,
-    "name": "P.A. Bhavani",
-    "phone": "+916301584847",
-    "raw_phone": "6301584847"
+    "sno": 242,
+    "name": "Flat 10C - Kedhar",
+    "phone": "+919704053000",
+    "raw_phone": "9704053000"
   },
   {
-    "sno": 178,
-    "name": "Maghanti Babu",
-    "phone": "+919849229993",
-    "raw_phone": "9849229993"
+    "sno": 243,
+    "name": "Flat 8C - Aravindha Shipa",
+    "phone": "+919603892657",
+    "raw_phone": "9603892657"
   },
   {
-    "sno": 179,
-    "name": "Tangudu Vykunta Rao",
-    "phone": "+919440683979",
-    "raw_phone": "9440683979"
+    "sno": 244,
+    "name": "Flat 9E - Krishna Rao",
+    "phone": "+919989926624",
+    "raw_phone": "9989926624"
   },
   {
-    "sno": 180,
-    "name": "Korada Subhadramma (Belamara)",
-    "phone": "+917989153962",
-    "raw_phone": "7989153962"
+    "sno": 245,
+    "name": "Flat 7E - Mani",
+    "phone": "+919491607379",
+    "raw_phone": "9491607379"
   },
   {
-    "sno": 181,
-    "name": "KNM",
-    "phone": "+919948523226",
-    "raw_phone": "9948523226"
+    "sno": 246,
+    "name": "Krishna Priya",
+    "phone": "+918249248621",
+    "raw_phone": "8249248621"
+  },
+  {
+    "sno": 247,
+    "name": "Gouthm Sudia",
+    "phone": "+919701533293",
+    "raw_phone": "9701533293"
+  },
+  {
+    "sno": 248,
+    "name": "Potnuru Venkata Ramana Polaki",
+    "phone": "+919177584769",
+    "raw_phone": "9177584769"
+  },
+  {
+    "sno": 249,
+    "name": "Gudla Achutha Rao VSKP Malu",
+    "phone": "+919848678573",
+    "raw_phone": "9848678573"
+  },
+  {
+    "sno": 250,
+    "name": "Andhavarapu Thyagaraju",
+    "phone": "+919440617103",
+    "raw_phone": "9440617103"
+  },
+  {
+    "sno": 253,
+    "name": "Belusonti Surya Rao",
+    "phone": "+919121180160",
+    "raw_phone": "9121180160"
+  },
+  {
+    "sno": 255,
+    "name": "Vasavi Pitta",
+    "phone": "+919704212018",
+    "raw_phone": "9704212018"
   }
 ]

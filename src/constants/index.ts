@@ -25,6 +25,7 @@ export const ROUTES = {
   ADMIN_PARTICIPANTS: '/admin/participants',
   ADMIN_PARTICIPANTS_NEW: '/admin/participants/new',
   ADMIN_IMPORT: '/admin/import',
+  ADMIN_STAFF: '/admin/staff',
   ADMIN_HISTORY: '/admin/history',
 } as const
 

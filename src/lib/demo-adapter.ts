@@ -14,6 +14,7 @@ import type {
   RedeemResult,
   ScanAuditEvent,
   ScanPreviewResult,
+  StaffMember,
 } from '../types'
 import {
   loadDemoStore,
@@ -505,6 +506,35 @@ export const demoAdapter: DataAdapter = {
       ].join(',')
     })
     return [headers.join(','), ...rows].join('\n')
+  },
+
+  async getStaffList(): Promise<StaffMember[]> {
+    await delay()
+    return [
+      {
+        id: 'demo-staff-1',
+        name: 'Demo Staff Member',
+        phone: DEMO_STAFF_PHONE,
+        email: `p91${DEMO_STAFF_PHONE}@giftpass.event`,
+        created_at: new Date().toISOString(),
+      },
+    ]
+  },
+
+  async addStaff(input: { name: string; phone: string; password?: string }): Promise<StaffMember> {
+    await delay()
+    const norm = normaliseIndianPhone(input.phone)
+    return {
+      id: `demo-staff-${Date.now()}`,
+      name: input.name.trim(),
+      phone: norm,
+      email: `p${norm.replace(/\D/g, '')}@giftpass.event`,
+      created_at: new Date().toISOString(),
+    }
+  },
+
+  async deleteStaff(): Promise<void> {
+    await delay()
   },
 }
 

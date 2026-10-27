@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link, useLocation } from 'react-router-dom'
-import { LayoutDashboard, Users, UserPlus, Upload, History, LogOut } from 'lucide-react'
+import { LayoutDashboard, Users, UserPlus, Upload, History, UserCheck, LogOut } from 'lucide-react'
 import { useAuth } from '../../contexts/AuthContext'
 import { useNavigate } from 'react-router-dom'
 import { ROUTES, APP_NAME } from '../../constants'
@@ -11,6 +11,7 @@ const NAV_ITEMS = [
   { to: ROUTES.ADMIN_PARTICIPANTS, icon: Users, label: 'Participants' },
   { to: ROUTES.ADMIN_PARTICIPANTS_NEW, icon: UserPlus, label: 'Add Participant' },
   { to: ROUTES.ADMIN_IMPORT, icon: Upload, label: 'Import CSV' },
+  { to: ROUTES.ADMIN_STAFF, icon: UserCheck, label: 'Staff' },
   { to: ROUTES.ADMIN_HISTORY, icon: History, label: 'History' },
 ]
 

@@ -12,6 +12,7 @@ import type {
   RedeemResult,
   ScanAuditEvent,
   ScanPreviewResult,
+  StaffMember,
 } from '../types'
 
 export interface LoginCredentials {
@@ -66,4 +67,7 @@ export interface DataAdapter {
     total: number
   }>
   exportParticipantsCsv(): Promise<string>
+  getStaffList(): Promise<StaffMember[]>
+  addStaff(input: { name: string; phone: string; password?: string }): Promise<StaffMember>
+  deleteStaff(id: string): Promise<void>
 }

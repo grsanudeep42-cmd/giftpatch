@@ -15,6 +15,7 @@ import type {
   RedeemResult,
   ScanAuditEvent,
   ScanPreviewResult,
+  StaffMember,
 } from '../types'
 import { normaliseIndianPhone, phoneToEmail, parseCsv, generateToken } from '../utils'
 import { PAGE_SIZE } from '../constants'
@@ -293,5 +294,69 @@ export const supabaseAdapter: DataAdapter = {
     })
 
     return [headers.join(','), ...rows].join('\n')
+  },
+
+  async getStaffList(): Promise<StaffMember[]> {
+    const supabaseUrl = (import.meta.env.VITE_SUPABASE_URL || '').replace(/[^\x20-\x7E]/g, '').trim()
+    const { data: sessionData } = await supabase.auth.getSession()
+    const token = sessionData.session?.access_token
+    if (!token) throw new Error('Not authenticated.')
+
+    const response = await fetch(`${supabaseUrl}/functions/v1/manage-staff`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        Authorization: `Bearer ${token}`,
+      },
+      body: JSON.stringify({ action: 'list' }),
+    })
+
+    const result = await response.json()
+    if (!response.ok) throw new Error(result.error ?? 'Failed to fetch staff list.')
+    return (result.staff ?? []) as StaffMember[]
+  },
+
+  async addStaff(input: { name: string; phone: string; password?: string }): Promise<StaffMember> {
+    const supabaseUrl = (import.meta.env.VITE_SUPABASE_URL || '').replace(/[^\x20-\x7E]/g, '').trim()
+    const { data: sessionData } = await supabase.auth.getSession()
+    const token = sessionData.session?.access_token
+    if (!token) throw new Error('Not authenticated.')
+
+    const response = await fetch(`${supabaseUrl}/functions/v1/manage-staff`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        Authorization: `Bearer ${token}`,
+      },
+      body: JSON.stringify({
+        action: 'create',
+        name: input.name,
+        phone: input.phone,
+        password: input.password,
+      }),
+    })
+
+    const result = await response.json()
+    if (!response.ok) throw new Error(result.error ?? 'Failed to create staff member.')
+    return result.staff as StaffMember
+  },
+
+  async deleteStaff(id: string): Promise<void> {
+    const supabaseUrl = (import.meta.env.VITE_SUPABASE_URL || '').replace(/[^\x20-\x7E]/g, '').trim()
+    const { data: sessionData } = await supabase.auth.getSession()
+    const token = sessionData.session?.access_token
+    if (!token) throw new Error('Not authenticated.')
+
+    const response = await fetch(`${supabaseUrl}/functions/v1/manage-staff`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        Authorization: `Bearer ${token}`,
+      },
+      body: JSON.stringify({ action: 'delete', id }),
+    })
+
+    const result = await response.json()
+    if (!response.ok) throw new Error(result.error ?? 'Failed to delete staff member.')
   },
 }

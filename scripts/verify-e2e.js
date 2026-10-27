@@ -29,11 +29,11 @@ async function runVerification() {
   console.log('[Test 2] Admin Dashboard Stats RPC...');
   const { data: stats, error: statsErr } = await adminClient.rpc('get_dashboard_stats');
   if (statsErr) throw new Error(`Dashboard stats failed: ${statsErr.message}`);
-  console.log(`  -> Total: ${stats.total}, Pending: ${stats.pending}, Collected: ${stats.collected}, Rate: ${stats.collection_rate}%`);
-  if (stats.total !== 181 || stats.pending !== 181 || stats.collected !== 0) {
-    throw new Error(`Unexpected stats: expected 181 total/pending, got ${JSON.stringify(stats)}`);
+  console.log(`  -> Total: ${stats.total}, Pending: ${stats.pending}, Collected: ${stats.collected}, Rate: ${stats.percent_collected ?? stats.collection_rate}%`);
+  if (stats.total !== 123 || stats.pending !== 123 || stats.collected !== 0) {
+    throw new Error(`Unexpected stats: expected 123 total/pending, got ${JSON.stringify(stats)}`);
   }
-  console.log('  -> PASS: Stats match 181 total seeded participants, 181 pending, 0 collected\n');
+  console.log('  -> PASS: Stats match 123 total seeded participants, 123 pending, 0 collected\n');
 
   // Test 3: Admin Participant Search & Pagination
   console.log('[Test 3] Admin Participant Pagination & Search...');
@@ -44,7 +44,7 @@ async function runVerification() {
     .range(0, 4);
   console.log(`  -> First 5 participants fetched (Total count: ${pCount}):`);
   pList.forEach(p => console.log(`     ${p.participant_id}: ${p.name} (${p.phone}) [${p.gift_status}]`));
-  if (pCount !== 181 || pList[0].participant_id !== 'GFT-0001') {
+  if (pCount !== 123 || pList[0].participant_id !== 'GFT-0001') {
     throw new Error('Participant list pagination failed');
   }
 
